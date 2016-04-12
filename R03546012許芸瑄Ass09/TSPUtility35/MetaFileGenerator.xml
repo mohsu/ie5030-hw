@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MetaFileGenerator</name>
+    </assembly>
+    <members>
+        <member name="T:NTU.IIE.CALab.MetaFileGenerator.MetaFileDrawingDelegate">
+            <summary>
+             Metafile 存檔時，會進行呼叫的圖形繪製函式委派。
+            </summary>
+            <param name="device">圖形顯示設備</param>
+            <param name="bound">圖形顯示設備上的繪圖矩形區</param>
+        </member>
+        <member name="T:NTU.IIE.CALab.MetaFileGenerator.MetaFileGenerator">
+            <summary>
+             Metafile 存檔靜態類別，提供靜態的圖形繪製事件，以及存檔函式。
+             使用前，使用者須準備圖形繪製事件處理函式，添加到本靜態類別的
+             圖形繪製事件。之後才能呼叫存檔函式。
+            </summary>
+        </member>
+        <member name="M:NTU.IIE.CALab.MetaFileGenerator.MetaFileGenerator.SaveAsAMetaFile">
+            <summary>
+             存檔函式，內容在顯示設備的(0,0,640,480)矩形內。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NTU.IIE.CALab.MetaFileGenerator.MetaFileGenerator.SaveAsAMetaFile(System.Int32,System.Int32)">
+            <summary>
+             存檔函式，呼叫者須提供顯示設備繪製的矩形寬高。
+            </summary>
+            <param name="width">矩形寬</param>
+            <param name="height">矩形高</param>
+            <returns></returns>
+        </member>
+        <member name="M:NTU.IIE.CALab.MetaFileGenerator.MetaFileGenerator.SaveAsAMetaFile(System.Drawing.RectangleF)">
+            <summary>
+             存檔函式，呼叫者須提供顯示設備繪製的矩形區域。
+            </summary>
+            <param name="contentBound">圖面繪製矩形位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:NTU.IIE.CALab.MetaFileGenerator.MetaFileGenerator.CopyAsAMetaFileFormat">
+            <summary>
+             拷貝meta file內容到剪貼簿，大小為640 * 480
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NTU.IIE.CALab.MetaFileGenerator.MetaFileGenerator.CopyAsAMetaFileFormat(System.Int32,System.Int32)">
+            <summary>
+             拷貝meta file內容到剪貼簿，呼叫者須提供矩形區域的寬和高。
+            </summary>
+            <param name="width"></param>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NTU.IIE.CALab.MetaFileGenerator.MetaFileGenerator.CopyAsAMetaFileFormat(System.Drawing.RectangleF)">
+            <summary>
+             拷貝meta file內容到剪貼簿，呼叫者須提供顯示設備繪製的矩形區域。
+            </summary>
+            <param name="contentBound"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NTU.IIE.CALab.MetaFileGenerator.MetaFileGenerator.SaveAsAMetaFile(System.String,System.Drawing.RectangleF)">
+            <summary>
+             存檔函式，呼叫者須提供檔案路徑，以及顯示設備繪製的矩形區域。
+            </summary>
+            <param name="filePath">存檔路徑</param>
+            <param name="contentBound">圖面繪製矩形位置</param>
+            <returns></returns>
+        </member>
+        <member name="E:NTU.IIE.CALab.MetaFileGenerator.MetaFileGenerator.DrawContent">
+            <summary>
+             圖形繪製事件，由使用者提供
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TSPBenchmark</name>
+    </assembly>
+    <members>
+        <member name="T:TSPBenchmark.TSPBenchmarkProblem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.numberOfObjects">
+            <summary>
+            Number of objects or cities. <br/>
+            物件或城市的個數。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.coordinateDimension">
+            <summary>
+            Coordinate dimension of the locations of cities.
+            物件座標的維度。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.name">
+            <summary>
+            The title ofthe problem. <br/>
+            標竿問題的名稱。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.type">
+            <summary>
+            The type of the generic TSP problem.  <br/>
+            標竿問題的種類。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.comment">
+            <summary>
+            The comments added.  <br/>
+            標竿問題的註解。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.optimumObjective">
+            <summary>
+            The smallest distance traversed by the traveling salesmam. <br/>
+            標竿問題的最短路徑長度。TSP:最短路徑長度。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.coordinates">
+            <summary>
+            The locations of the unknown object: coordinates[object id,coordinate id]。<br/>
+            城市或物件的座標。coordinates[物件索引,座標索引]。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.displayCoordinates">
+            <summary>
+            The locations of the unknown object: coordinates[object id,coordinate id]。<br/>
+            城市或物件的圖形顯示座標。coordinates[物件索引,座標索引]。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.fromToMatrix">
+            <summary>
+            The computed or read transpotation <br/>
+            From-To距離矩陣。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.optimalTour">
+            <summary>
+            The known shortest path. <br/>
+            已知最短路徑的繞行途程。由物件編號組成陣列。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.minimalDistance">
+            <summary>
+            The known shortest distance. <br/>
+            已知最短路徑的繞行途程長度。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.hasOptimalTour">
+            <summary>
+            是否有最短路徑的繞行資料。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.hasOptimalObjective">
+            <summary>
+            Is the shorest path exist. <br/>
+            是否有最短路徑的長度值。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.tspFilePath">
+            <summary>
+            The file path of the benchmark input file.<br/>
+            標竿檔案的完整路徑。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.tourFilePath">
+            <summary>
+            The file path of the known shorest path file. <br/>
+            已知最短路徑的檔案路徑。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.capacity">
+            <summary>
+            The vehicle loading capacity in VRP. <br/>
+            車輛途程問題的車容量上限。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.numberOfDepot">
+            <summary>
+            The number of depots in VRP.<br/>
+            車輛途程問題的車站數目。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.depotIDList">
+            <summary>
+            The index array of the depots. <br/>
+            車輛途程問題的車站索引陣列。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.demands">
+            <summary>
+            The number of delivery objects of all pickup/delivery points. <br/>
+            車輛途程問題的各取卸貨點的貨物數量。
+            </summary>
+        </member>
+        <member name="F:TSPBenchmark.TSPBenchmarkProblem.adjancyMatrix">
+            <summary>
+            The adjacecy martix of a VCP. <br/>
+            著色問題的鄰接限制矩陣。
+            </summary>
+        </member>
+        <member name="M:TSPBenchmark.TSPBenchmarkProblem.getFileContents">
+            <summary>
+            The context of the benchmark input file. <br/>
+            標竿問題檔案內容。
+            </summary>
+            <returns>the contents.<br/>
+            檔案內容。
+            </returns>
+        </member>
+        <member name="M:TSPBenchmark.TSPBenchmarkProblem.AssignFileDirectory(System.String)">
+            <summary>
+            Assign the file path of the benchmark problem. <br/>
+            設定標竿問題的檔案路徑。
+            </summary>
+            <param name="benchmarkFilePath"> File path <br/>
+            檔案路徑</param>
+        </member>
+        <member name="M:TSPBenchmark.TSPBenchmarkProblem.ImportATSPFile(System.Boolean,System.Boolean)">
+            <summary>
+            Load a TSP benchmark input file that has .tsp file extension. The shorest path file has .opt.tour file extension. <br/>
+            載入一個TSP標竿問題。標竿問題的副檔名是 .tsp，最佳解的副檔名是 .opt.tour。兩者應放於同一個目錄內。
+            </summary>
+            <param name="showMessage">whether prompt messagebox <br/>
+            是否秀出訊息視窗</param>
+            <param name="newOne">whether reselect a new benchmark <br/>
+            是否新開一個標竿問題</param>
+            <returns> return 1 for successful import; -1 for file not exist; 0 for invalid file format. <br/>
+            正確成功時回傳 1；檔案不存在時回傳 -1；檔案存在但是內容格式錯誤，導致輸入失敗時回傳 0 。</returns>
+        </member>
+        <member name="M:TSPBenchmark.TSPBenchmarkProblem.ComputeObjectiveValue(System.Int32[])">
+            <summary>
+            Computer the routing length of the given route. <br/>
+            求算繞行路徑 route 的路徑長。
+            </summary>
+            <param name="route">the route<br/>
+            繞行路徑，物件的編號陣列</param>
+            <returns>the routing distance<br/>
+            路徑長</returns>
+        </member>
+        <member name="M:TSPBenchmark.TSPBenchmarkProblem.DrawCitiesOptimalRouteAndARoute(System.Drawing.Graphics,System.Int32,System.Int32,System.Int32[])">
+            <summary>
+            Draw the location of the cities, the known shorest path, and the user specified route on a user specified graphical device. <br/>
+            繪出個物件的位置、已知最短路徑、以及使用者提供的繞行路徑。如果有已知最短路徑，也會畫出該路徑。
+            </summary>
+            <param name="graphics">the graphics object of the graphical device<br/>
+            視窗界面上任何控制項的圖形展現物件</param>
+            <param name="Width">the width of the graphical device<br/>
+            圖形控制項的寬度</param>
+            <param name="Height">the height of the graphical device<br/>
+            圖形控制項的高度</param>
+            <param name="route">the user specified route<br/>
+            使用者提供的路徑，是物件編號陣列</param>
+        </member>
+        <member name="M:TSPBenchmark.TSPBenchmarkProblem.DrawCitesAndARoute(System.Drawing.Graphics,System.Int32,System.Int32,System.Int32[])">
+            <summary>
+            Draw the location of the cities and the user specified route on a user specified graphical device. <br/>
+            繪出個物件的位置以及使用者提供的繞行路徑。
+            </summary>
+            <param name="graphics">the graphics object of the graphical device<br/>
+            視窗界面上任何控制項的圖形展現物件</param>
+            <param name="Width">the width of the graphical device<br/>
+            圖形控制項的寬度</param>
+            <param name="Height">the height of the graphical device<br/>
+            圖形控制項的高度</param>
+            <param name="route">the user specified route<br/>
+            使用者提供的路徑，是物件編號陣列</param>
+        </member>
+        <member name="M:TSPBenchmark.TSPBenchmarkProblem.DrawCitiesAndARoute(System.Drawing.Graphics,System.Int32,System.Int32,System.Int32[0:,0:])">
+            <summary>
+            Draw the location of the cities and the user specified route on a user specified graphical device. <br/>
+            繪出個物件的位置以及使用者提供的繞行路徑。
+            </summary>
+            <param name="graphics">the graphics object of the graphical device<br/>
+            視窗界面上任何控制項的圖形展現物件</param>
+            <param name="Width">the width of the graphical device<br/>
+            圖形控制項的寬度</param>
+            <param name="Height">the height of the graphical device<br/>
+            圖形控制項的高度</param>
+            <param name="assignment">the user specified route in tems of an nxn 0-1 matrix<br/>
+            使用者提供的路徑，使用者提供的繞行順位指定資料，是 nxn的0-1矩陣</param>
+        </member>
+        <member name="M:TSPBenchmark.TSPBenchmarkProblem.DrawCitiesAndARoute(System.Drawing.Graphics,System.Int32,System.Int32,System.Single[0:,0:])">
+            <summary>
+            Draw the location of the cities and the user specified route on a user specified graphical device. <br/>
+            繪出個物件的位置以及使用者提供的繞行路徑。
+            </summary>
+            <param name="graphics">the graphics object of the graphical device<br/>
+            視窗界面上任何控制項的圖形展現物件</param>
+            <param name="Width">the width of the graphical device<br/>
+            圖形控制項的寬度</param>
+            <param name="Height">the height of the graphical device<br/>
+            圖形控制項的高度</param>
+            <param name="realAssignment">the user specified route in tems of an nxn real number matrix<br/>
+            使用者提供的路徑，使用者提供的繞行順位指定資料，是 nxn的實數矩陣</param>
+        </member>
+        <member name="P:TSPBenchmark.TSPBenchmarkProblem.AverageDistance">
+            <summary>
+            Get the average of the distances in the from-to matrix. <br/>
+            From-to距離矩陣中兩物件間的平均長度。
+            </summary>
+            <returns>the average distance<br/>
+            平均長度</returns>
+        </member>
+        <member name="P:TSPBenchmark.TSPBenchmarkProblem.MaximumDistance">
+            <summary>
+            Get the longest distance in the from-to matrix. <br/>
+            From-to距離矩陣中兩物件間的長距離。
+            </summary>
+            <returns>the longest distance<br/>
+            最長距離</returns>
+        </member>
+    </members>
+</doc>

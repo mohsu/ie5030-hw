@@ -1,0 +1,36 @@
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.exe.config
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.exe
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.pdb
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.dll
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.pdb
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.xml
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.Mainform.resources
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.Properties.Resources.resources
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.csproj.GenerateResource.Cache
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.exe
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.pdb
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.exe.config
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.exe
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.pdb
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.exe
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.pdb
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.dll
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.pdb
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.xml
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.csprojResolveAssemblyReference.cache
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.Mainform.resources
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.Properties.Resources.resources
+Y:\Documents\Visual Studio 2013\Projects\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.csproj.GenerateResource.Cache
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.exe.config
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.exe
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.pdb
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.exe
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.pdb
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.dll
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.pdb
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.xml
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.csprojResolveAssemblyReference.cache
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.Mainform.resources
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.Properties.Resources.resources
+Y:\Dropbox\柔性演算法\10\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.csproj.GenerateResource.Cache

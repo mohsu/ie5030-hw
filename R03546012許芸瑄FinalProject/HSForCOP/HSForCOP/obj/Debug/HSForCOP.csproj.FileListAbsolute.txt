@@ -1,0 +1,15 @@
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.exe.config
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.exe
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.pdb
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\HSForCOP.csprojResolveAssemblyReference.cache
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.Properties.Resources.resources
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\HSForCOP.csproj.GenerateResource.Cache
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.exe
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\R03546012許芸瑄Ass10.pdb
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.dll
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.pdb
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\bin\Debug\COPBenchmark.xml
+Y:\Dropbox\柔性演算法\R03546012許芸瑄Ass10\R03546012許芸瑄Ass10\obj\Debug\R03546012許芸瑄Ass10.COP.resources
+Y:\Dropbox\柔性演算法\HSForCOP\HSForCOP\bin\Debug\R03546012許芸瑄Ass10.exe.config
+Y:\Dropbox\柔性演算法\HSForCOP\HSForCOP\obj\Debug\R03546012許芸瑄Ass10.exe
+Y:\Dropbox\柔性演算法\HSForCOP\HSForCOP\obj\Debug\R03546012許芸瑄Ass10.pdb

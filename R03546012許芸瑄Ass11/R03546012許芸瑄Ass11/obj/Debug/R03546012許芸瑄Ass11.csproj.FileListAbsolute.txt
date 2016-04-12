@@ -1,0 +1,9 @@
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass11\R03546012許芸瑄Ass11\bin\Debug\R03546012許芸瑄Ass11.exe.config
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass11\R03546012許芸瑄Ass11\bin\Debug\R03546012許芸瑄Ass11.exe
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass11\R03546012許芸瑄Ass11\bin\Debug\R03546012許芸瑄Ass11.pdb
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass11\R03546012許芸瑄Ass11\obj\Debug\R03546012許芸瑄Ass11.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass11\R03546012許芸瑄Ass11\obj\Debug\R03546012許芸瑄Ass11.Mainform.resources
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass11\R03546012許芸瑄Ass11\obj\Debug\R03546012許芸瑄Ass11.Properties.Resources.resources
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass11\R03546012許芸瑄Ass11\obj\Debug\R03546012許芸瑄Ass11.csproj.GenerateResource.Cache
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass11\R03546012許芸瑄Ass11\obj\Debug\R03546012許芸瑄Ass11.exe
+\\psf\home\documents\visual studio 2013\Projects\R03546012許芸瑄Ass11\R03546012許芸瑄Ass11\obj\Debug\R03546012許芸瑄Ass11.pdb

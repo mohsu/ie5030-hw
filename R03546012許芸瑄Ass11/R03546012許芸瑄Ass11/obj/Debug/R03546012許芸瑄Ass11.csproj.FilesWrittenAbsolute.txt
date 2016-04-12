@@ -1,0 +1,8 @@
+/Users/mohsu/Google 雲端硬碟/NTU/碩一上/柔性演算法/R03546012許芸瑄Ass11/R03546012許芸瑄Ass11/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/mohsu/Google 雲端硬碟/NTU/碩一上/柔性演算法/R03546012許芸瑄Ass11/R03546012許芸瑄Ass11/obj/Debug/R03546012許芸瑄Ass11.Mainform.resources
+/Users/mohsu/Google 雲端硬碟/NTU/碩一上/柔性演算法/R03546012許芸瑄Ass11/R03546012許芸瑄Ass11/obj/Debug/R03546012許芸瑄Ass11.Properties.Resources.resources
+/Users/mohsu/Google 雲端硬碟/NTU/碩一上/柔性演算法/R03546012許芸瑄Ass11/R03546012許芸瑄Ass11/bin/Debug/R03546012許芸瑄Ass11.exe.config
+/Users/mohsu/Google 雲端硬碟/NTU/碩一上/柔性演算法/R03546012許芸瑄Ass11/R03546012許芸瑄Ass11/bin/Debug/R03546012許芸瑄Ass11.exe.mdb
+/Users/mohsu/Google 雲端硬碟/NTU/碩一上/柔性演算法/R03546012許芸瑄Ass11/R03546012許芸瑄Ass11/bin/Debug/R03546012許芸瑄Ass11.exe
+/Users/mohsu/Google 雲端硬碟/NTU/碩一上/柔性演算法/R03546012許芸瑄Ass11/R03546012許芸瑄Ass11/obj/Debug/R03546012許芸瑄Ass11.exe
+/Users/mohsu/Google 雲端硬碟/NTU/碩一上/柔性演算法/R03546012許芸瑄Ass11/R03546012許芸瑄Ass11/obj/Debug/R03546012許芸瑄Ass11.exe.mdb

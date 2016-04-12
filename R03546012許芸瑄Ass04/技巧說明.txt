@@ -1,0 +1,73 @@
+Demo 版本使用技術摘要
+
+嘗試使用 SplitContainer 區分視窗畫面。透過最上層、最下層的編輯指令，佈置各層級控制項。
+釐清巢狀包容的關聯關係，層層使用 SplitContainer。其中的Orientation是兩子面板分隔方向的屬性。
+交替使用 Dock 和 Anchor 屬性設定達到想要的介面分割操作。
+當Universe設定後，在沒有線圖物件下，若要強制顯示X軸,可設定軸的Enabled屬性為真。
+例如:  chart物件名稱.ChartAreas[0].AxisX.Enabled = AxisEnabled.True;
+
+先清除Chart物件內的 Series[0] 線圖物件和ChartAreas[0] 圖區物件、、以及Legend[0]物件。我們以程式動態增加。
+添加一個Universe時，添加該Universe 提供的ChartArea物件。透過Chart物件的ChartAreas集合的Add()函式添加。
+另外添加一個Legend物件與該ChartArea相對應。
+
+TreeView 控制項適合收錄具有巢狀包容關係的結構，我們使用他在第一層展示各個Universe。
+在每個Universe下展示第二層的FuzzySet。因此使用者須先選定某個Universe，再在上面添加Fuzzy Set。
+每個TreeNode物件都有子輩的TreeNode 集合屬性，名為Nodes。 TreeView的Nodes屬性就是第一層的TreeNode物件集合。
+因此新增一個Universe時候，就是新增一個TreeNode物件，透過TreeView的Nodes集合的Add()函式加入。例如：
+            TreeNode nn = new TreeNode( selectedUniverse.title );
+            nn.ImageIndex = 0;
+            nn.SelectedImageIndex = 0;
+            TreeView物件名稱.Nodes.Add( nn );
+
+Node的Parent屬性是上一層的父輩Node。Node的Index屬性是該Node在同一層的Nodes中的索引。
+Node的ImageIndex是正常的小圖像索引，SelectedImageIndex是選中時的小圖像索引。你可設定TreeView的ImageList屬性。
+先由工具箱拖拉一個ImageList物件到設計界面，加入兩個圖像分別代表Universe和FuzzySet(索引分別是0,1)，在設定它是TreeView物件的ImageList屬性。
+TreeView 的 HideSelection 屬性內定為true。選取任一Node 失焦後，會自動取消反白。因此務必將該屬性設為fale.
+
+List<T> 類別是.NET Framework 中非常有用的資料結構，供使用者動態收集型態T的物件。 List<T> 是T物件的Collection
+使用者可任意插入、移出、添加一個T物件。 屬性 Count是當下T物件收集的個數。也可透過整數索引取出排行該索引位置的T物件。
+
+因為我們允許使用者設定多個Universes，且在各Universe上添加任意個Fuzzy sets，因此Form內的成員資料應以動態的
+List<T> 收集使用者設定的多個Universes，意即
+List<Universe> allUnivers = new List<Universe>();
+而使用者添加在不同Universe的Fuzzy sets也應使用動態陣列List<T>。因有多個Universes因此須外加一層List<>:意即
+List<List<FuzzySet>> allFuzzySets = new List<List<FuzzySet>>();
+
+第i個universe new出來後，添加一個 List<FuzzySet> 物件；意即
+allFuzzySets.Add( new List<FuzzySet>() );
+allFuzzySets[i].Add(  ... new fuzzy set ... );
+
+Chart 物件有 MouseUP 事件，會送來點擊點的(X,Y)座標，即參數 e.X, e.Y。使用該參數座標，執行Chart的HitTest(X,Y)可得到 HitTestResult 物件。
+由該物件的屬性查出點擊點的ChartArea 和 Series物件。若是Series物件，透過程式分析找出所屬的FuzzySet，以程式
+設定TreeView物件內的SelectedNode，讓它的AfterSelect事件，展示該FuzzySet的參數在人機介面上，供編輯更新。
+滑鼠進來Chart物件變成手指，是設定它的Cursor屬性。
+
+透過TreeView物件的AfterSelect事件，可由TreeView物件的SelectedNode查驗它的Level和Index參數，知道選取的Node
+是代表Universe物件或FuzzySet物件。選定的Universe，會將他的屬性更新在人機上，進行資料變更或更新。
+選定的FuzzySet物件，會將他的屬性更新在人機上，進行資料變更或更新。
+先在FuzzySet的類別上添加一個字串的title讓使用者設定名稱。
+提供公用的人機介面，展示選取的Fuzzyset物件和Universe物件，供使用者編輯和更新。
+
+將Series改為是FuzzySet類別的資料；在Universe類別中添加 ChartArea物件資料，並在建構函式中進行初始化。
+Form類別只提供Chart物件，新增Universe物件時，將他的ChartArea物件加入Chart物件。
+新增FuzzySet物件時，將他的Series物件加入Chart物件的Serieses集合內。
+再設定Series的ChartArea字串屬性，為正確的ChartArea物件名稱；確保該FuzzySet函數畫在整確的ChartArea上。例如：
+			idx 是該fuzzyset所屬universe的索引
+            chart物件名稱.Series.Add( fuzzyset物件名稱.series資料名稱  );
+            fuzzyset物件名稱.series資料名稱.ChartArea = chart物件名稱.ChartAreas[idx].Name;
+            fuzzyset物件名稱.series資料名稱.Legend = chart物件名稱.Legends[idx].Name;
+
+在Universe類別和FuzzySet類別內，添加 Series 和 ChartArea必須在cs檔案內類別定義外，添加using敘述：
+using System.Windows.Forms.DataVisualization.Charting;
+
+FuzzySet類別設計公用函式，供變更參數值後更新相關資料時呼叫。
+Universe類別設計公用函式，供變更參數值後更新相關資料時呼叫。
+
+
+Form類別內的資料結構範例：
+
+        List<Universe> allUniverses = new List<Universe>( );
+        List< List<FuzzySet>> allFuzzySets = new List<List<FuzzySet>>( );
+        Series selectedSeries;
+        FuzzySet selectedFuzzySet;
+        Universe selectedUniverse;
