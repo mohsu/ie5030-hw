@@ -1,9 +1,0 @@
-Z:\Dropbox\柔性演算法\R03546012許芸瑄Ass03\R03546012許芸瑄Ass03\bin\Debug\R03546012許芸瑄Ass03.exe.config
-Z:\Dropbox\柔性演算法\R03546012許芸瑄Ass03\R03546012許芸瑄Ass03\bin\Debug\R03546012許芸瑄Ass03.exe
-Z:\Dropbox\柔性演算法\R03546012許芸瑄Ass03\R03546012許芸瑄Ass03\bin\Debug\R03546012許芸瑄Ass03.pdb
-Z:\Dropbox\柔性演算法\R03546012許芸瑄Ass03\R03546012許芸瑄Ass03\obj\Debug\R03546012許芸瑄Ass03.csprojResolveAssemblyReference.cache
-Z:\Dropbox\柔性演算法\R03546012許芸瑄Ass03\R03546012許芸瑄Ass03\obj\Debug\R03546012許芸瑄Ass03.MainForm.resources
-Z:\Dropbox\柔性演算法\R03546012許芸瑄Ass03\R03546012許芸瑄Ass03\obj\Debug\R03546012許芸瑄Ass03.Properties.Resources.resources
-Z:\Dropbox\柔性演算法\R03546012許芸瑄Ass03\R03546012許芸瑄Ass03\obj\Debug\R03546012許芸瑄Ass03.csproj.GenerateResource.Cache
-Z:\Dropbox\柔性演算法\R03546012許芸瑄Ass03\R03546012許芸瑄Ass03\obj\Debug\R03546012許芸瑄Ass03.exe
-Z:\Dropbox\柔性演算法\R03546012許芸瑄Ass03\R03546012許芸瑄Ass03\obj\Debug\R03546012許芸瑄Ass03.pdb

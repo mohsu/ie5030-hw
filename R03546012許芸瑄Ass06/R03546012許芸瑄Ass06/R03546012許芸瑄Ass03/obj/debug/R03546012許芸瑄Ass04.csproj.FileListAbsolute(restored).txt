@@ -1,3 +1,0 @@
-\\psf\Dropbox\柔性演算法\R03546012許芸瑄Ass04\R03546012許芸瑄Ass03\bin\Debug\R03546012許芸瑄Ass03.exe.config
-\\psf\Dropbox\柔性演算法\R03546012許芸瑄Ass04\R03546012許芸瑄Ass03\obj\Debug\R03546012許芸瑄Ass03.exe
-\\psf\Dropbox\柔性演算法\R03546012許芸瑄Ass04\R03546012許芸瑄Ass03\obj\Debug\R03546012許芸瑄Ass03.pdb
